@@ -1,0 +1,5 @@
+kernel/linux-6.11-rc6/
+kernel/build/
+kernel/modules/
+kernel/debian*
+kernel/*.tar.gz
