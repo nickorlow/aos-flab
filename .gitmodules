@@ -1,0 +1,3 @@
+[submodule "fast-udp"]
+    path = fast-udp
+    url = git@github.com:nickorlow/fast-udp
