@@ -7,7 +7,7 @@ qemu-system-x86_64 \
     -nographic \
     -drive file=$1,media=disk,if=virtio \
     -append "root=/dev/vda1 console=ttyS0,115200n8 pti=yes nokasrl" \
-    -kernel /home/nickorlow/programming/school/aos-flab/kernel/newbuild/arch/x86_64/boot/bzImage \
+    -kernel /home/nickorlow/programming/school/aos-flab/kernel/old-build/arch/x86_64/boot/bzImage \
     -monitor telnet:127.0.0.1:55555,server,nowait \
     -virtfs local,path=/home/nickorlow/programming/school/aos-lab2/,mount_tag=host1,security_model=passthrough,id=host0 \
     -s

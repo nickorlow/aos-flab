@@ -1,0 +1,5 @@
+linux-old/
+*build/
+results/
+test-prog/
+perf*
