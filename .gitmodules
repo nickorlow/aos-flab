@@ -1,3 +1,7 @@
 [submodule "fast-udp"]
     path = fast-udp
     url = git@github.com:nickorlow/fast-udp
+
+[submodule "kernel/linux"]
+    path = kernel/linux 
+    url = git@github.com:nickorlow/linux-fastnet
